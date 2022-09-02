@@ -1,0 +1,67 @@
+
+/* colors */
+:root {
+    --font-header-color: #212121;
+    --font-text-color: #757575;
+--accent-color: #2196F3;
+
+}
+
+body {
+    font-family:'Roboto',Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #757575;
+}
+
+ul {
+    list-style: none;
+}
+.header {
+
+}
+.nav .link:hover,
+.nav .link:focus {
+color: var(--accent-color);
+}
+
+
+.adress {
+    color: var(--font-text-color);
+}
+.adress:hover,
+.adress:focus {
+    color: var(--accent-color);
+}
+
+
+h1 {
+    color: #fff
+}
+
+
+.features h2, h3 {
+    color: var(--font-header-color);
+}
+
+
+.about h2 {
+    color: var(--font-header-color);
+}
+
+
+.team {
+    background-color: #F5F4FA;
+}
+.team li {
+    background-color: #fff;
+}
+.team h2 {
+color: var(--font-header-color);
+}
+.team h3 {
+    color: var(--font-header-color);
+
+}
+.team p {
+   
+}
