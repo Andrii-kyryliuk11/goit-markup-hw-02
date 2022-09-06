@@ -11,7 +11,7 @@
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   background-color: #fff;
-  color: #757575;
+  color: var(--font-text-color);
 }
 
 ul {
@@ -187,6 +187,7 @@ h3,
 .button:focus,
 .button:hover {
   background-color: var(--accent-color);
+  color: #fff;
 }
 
 .nav .link.current {
